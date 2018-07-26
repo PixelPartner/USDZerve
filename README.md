@@ -10,6 +10,16 @@ For direct feedback, please contact me on **[Twitter](https://twitter.com/pixelp
 ## Roadmap
 
 - [x] Describe purpose, roadmap and dependencies.
+- [ ] Develop tornado server for customized USD scene archives
+  - [ ] respond to urlParameters
+  - [ ] respond to JSON parameters
+  - [ ] accept only parameters supported in the loaded USD scene
+  - [ ] configure and write flattened .usdc and textures
+  - [ ] use ZipFile.py to create .usdz archive (or wait for Pixar to directly support this)
+  - [ ] support frontend UI updates for long running USD creation processes
+  - [ ] serve archive
+- [ ] Combine USDZ creation with 2D SVG UI
+- [ ] Create sample order details PDF on the server with PNG or SVG
 - [ ] Create .blend scenes with Armory3D extensions
 - [ ] Add infrastructure to automatically create interfacing **elm** and **haxe** code to connect the WebGL scene with the HTML UI.
   - [ ] Create 2D thumbnails for **variants** to register and later show in UI.
