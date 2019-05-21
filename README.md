@@ -31,7 +31,6 @@ For direct feedback, please contact me on **[Twitter](https://twitter.com/pixelp
 - [ ] An interactive 3D presentation of the product.
 - [ ] Automatic creation of HTML/CSS-based UI to choose a variant and configure the product with predefined parameters.
 - [ ] **[optional]** Server-side creation of customized **3D scene files** to download/serve for presenting the final configuration in **AR** on modern SmartPhones. 
-  - [ ] Using [Jinja](http://jinja.pocoo.org/docs/2.10/templates/) templating in raw **.usda** and **.gltf** files.
   - [ ] **.usdz** on modern Apple products, using **AR-QuickLook**.
   - [ ] **.gltf** on others, using **WebXR** with an Mozilla App.
   - [ ] Using both of the above with [Google's `<model-viewer />` WebComponent](https://github.com/GoogleWebComponents/model-viewer).
@@ -50,3 +49,4 @@ For direct feedback, please contact me on **[Twitter](https://twitter.com/pixelp
 
 - **[Pixar's OpenUSD](https://graphics.pixar.com/usd/docs/index.html)** (on [Linux](https://github.com/PixarAnimationStudios/USD/#3-run-the-script), [macOS](https://github.com/vfxpro99/usd-build-club/wiki/USD-on-macOS) and [Windows](https://github.com/vfxpro99/usd-build-club/wiki/Using-Pixar's-build-script-on-Windows)) to produce [USDZ 3D scene archives](https://developer.apple.com/videos/play/wwdc2018/603/) for [AR Quicklook on iOS12 devices and macOS10.14](https://developer.apple.com/arkit/gallery/)
 - **[tornado](http://www.tornadoweb.org)**, the **python** web framework for asynch processes
+- Using **[Jinja](http://jinja.pocoo.org/docs/2.10/templates/)** templating in raw **.usda** and **.gltf** files.
