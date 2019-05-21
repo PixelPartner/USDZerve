@@ -31,9 +31,10 @@ For direct feedback, please contact me on **[Twitter](https://twitter.com/pixelp
 - [ ] An interactive 3D presentation of the product.
 - [ ] Automatic creation of HTML/CSS-based UI to choose a variant and configure the product with predefined parameters.
 - [ ] **[optional]** Server-side creation of customized **3D scene files** to download/serve for presenting the final configuration in **AR** on modern SmartPhones. 
-  - [ ] **.usdz** on modern Apple products, using **AR-QuickLook**
+  - [ ] Using [Jinja](http://jinja.pocoo.org/docs/2.10/templates/) templating in raw **.usda** and **.gltf** files.
+  - [ ] **.usdz** on modern Apple products, using **AR-QuickLook**.
   - [ ] **.gltf** on others, using **WebXR** with an Mozilla App.
-  - [ ] Using both of the above with [Google's `<model-viewer />` WebComponent](https://github.com/GoogleWebComponents/model-viewer)
+  - [ ] Using both of the above with [Google's `<model-viewer />` WebComponent](https://github.com/GoogleWebComponents/model-viewer).
 - [ ] Server-side creation of PDFs describing the configured product.
 
 ## Dependencies
