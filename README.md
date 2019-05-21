@@ -17,7 +17,7 @@ For direct feedback, please contact me on **[Twitter](https://twitter.com/pixelp
   - [ ] configure and write flattened .usdc and textures
   - [ ] use ZipFile.py to create .usdz archive (or wait for Pixar to directly support this)
   - [ ] support frontend UI updates for long running USD creation processes
-  - [ ] serve archive
+  - [ ] serve **USDZ** archive and **GLTF** files
 - [ ] Combine USDZ creation with 2D SVG UI
 - [ ] Create sample order details PDF on the server with PNG or SVG
 - [ ] Create .blend scenes with Armory3D extensions
@@ -33,6 +33,7 @@ For direct feedback, please contact me on **[Twitter](https://twitter.com/pixelp
 - [ ] **[optional]** Server-side creation of customized **3D scene files** to download/serve for presenting the final configuration in **AR** on modern SmartPhones. 
   - [ ] **.usdz** on modern Apple products, using **AR-QuickLook**
   - [ ] **.gltf** on others, using **WebXR** with an Mozilla App.
+  - [ ] Using both of the above with [Google's `<model-viewer />` WebComponent](https://github.com/GoogleWebComponents/model-viewer)
 - [ ] Server-side creation of PDFs describing the configured product.
 
 ## Dependencies
